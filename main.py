@@ -19,5 +19,6 @@ def handler(event, context):
             )
 
         print("successfully sent notification")
+        print("This is testing")
     except Exception as exp:
         print(f"error occured, {exp}")
